@@ -28,7 +28,7 @@ import LatestChat from '../Screens/LatestChat';
 export default function Navigation(): JSX.Element {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator screenOptions={{orientation: 'all'}}>
         <Stack.Screen name="First" component={First} />
         <Stack.Screen
           name="Eg"
